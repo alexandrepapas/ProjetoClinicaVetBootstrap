@@ -10,20 +10,20 @@
 
     <title>Projeto Clinica Veterinária </title> 
 </head>
-<body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom">
+<body data-bs-spy="scroll" data-bs-target="#menu">
+    <div  id="topo" class="container">
+        <header class="  bg-light sticky-top d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         
             <span class="fs-4 fw-bold ">  <i class="mdi mdi-dog"></i>Doguinhos</span>
           </a>
     
-          <ul class="nav nav-pills">
+          <ul id="menu" class="nav nav-pills">
             <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Servivços</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Preços</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+            <li class="nav-item"><a href="#precos" class="nav-link">Preços</a></li>
+            <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+            <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
           </ul>
         </header>
         <section class="mb-5 ">
@@ -68,20 +68,180 @@
                   <p><a class="btn btn-secondary" href="#">View details »</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4 mt-5">
-                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                   <img  class="rounded-circle shadow border p-5" src="img/dog (1).png" alt="">
           
-                  <h2 class="mt-3">Heading</h2>
+                  <h2 class="mt-3">Raio-x</h2>
                   <p>And lastly this, the third column of representative placeholder content.</p>
                   <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                  
                 </div><!-- /.col-lg-4 -->
               </div>
 
 
         </section>
     
+        <section  id="precos" class="pt-5 mt-5">
+
+          <div class="pricing-header p-3  pt-5  mt-5  pb-md-4 mx-auto text-center">
+            <h2 class="display-5  mb-5 fw-normal">Preços</h2>
+            <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                  <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Enterprise</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>30 users included</li>
+                      <li>15 GB of storage</li>
+                      <li>Phone and email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                  <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Enterprise</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>30 users included</li>
+                      <li>15 GB of storage</li>
+                      <li>Phone and email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                  <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Enterprise</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>30 users included</li>
+                      <li>15 GB of storage</li>
+                      <li>Phone and email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section id="faq" class="py-1 my-1">
+
+
+          <div class="row pt-1 mt-1">
+            <div class="col-12 text-center">
+              <h2 class="display-5 fw-bold">Perguntas frequentes </h2>
+            </div>
+          </div>
+
+          <div class="row mt-3-">
+            <div class="row col-12">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+ 
+        </section>
+        <section id="contato" class="py-5 my-5">
+          
+          
+          <div class="row pt-1 mt-1">
+            <div class="col-12 text-center">
+              <h2 class="display-5 fw-bold">Contato </h2>
+              
+            </div>
+          </div>
+          <div class="row align-items-md-stretch">
+           <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2>Add borders</h2>
+          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+          <p class="mt-2"><i class="mdi mdi-phone"> 38-0000-000</i></p>
+          <p class="mt-2"><i class="mdi mdi-email">alexandre@povedor.com</i></p>
+          <button class=" btn btn-success" type="button"  ><i class="mdi mdi-whatsapp"></i> Chamar no Whatsapp</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2>Endreço</h2>
+          <p>Rua de exemplo  E n-95 Centro. Felixândia-MG</p>
+          <p class="mt-2"><i class="mdi mdi-phone"> 38-0000-0000</i></p>
+          <p class="mt-2"><i class="mdi mdi-email">alexande@provedor.com</i> <iframe class="m-0 m-auto" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7556.328290999687!2d-44.90946117283672!3d-18.74620368940734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRua%20E%2C%2087%20-%20Felixl%C3%A2ndia%2C%20State%20of%20Minas%20Gerais!5e0!3m2!1sen!2sbr!4v1659383307527!5m2!1sen!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+       
+        </div>
+      
+      </div>
+          </div>
+        
+        
+        </section>
+       
+       
      
     </div>
-
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© Clinica Veterinaria Doguinhos. Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
 
 
 
